@@ -17,7 +17,7 @@ var app = express();
 // within node_modules/azure-mobile-apps/index.js (look for defaults).
 var mobileApp = azureMobileApps({
     // Explicitly enable the Azure Mobile Apps home page
-    homePage: true,
+    //homePage: true,
     // Explicitly enable swagger support. UI support is enabled by
     // installing the swagger-ui npm module.
     swagger: true
